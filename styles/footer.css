@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.footer-container{
+    background-color: #272727;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+.footer-container p{
+    color: #f3d7ca;
+    padding-left: 3rem;
+}
+.footer-images{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.footer-images img{
+    height: 2rem;
+}

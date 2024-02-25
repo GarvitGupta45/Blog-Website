@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystic Muse</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <%- include("header.ejs") %>
+    
+    <div class="blog-list">
+        <form action="/blog1" method="POST">
+            <input class="button-input" type="submit" value="Vision without Execution is Hallucination">
+        </form>
+        <form action="/blog2" method="POST">
+            <input class="button-input" type="submit" value="Jesus Wants to Meet You">
+        </form>
+        <form action="/blog3" method="POST">
+            <input class="button-input" type="submit" value="What the Wind and the Holy Spirit Have in Common (and Why it Matters!)">
+        </form>
+        <form action="/blog4" method="POST">
+            <input class="button-input" type="submit" value="What do you do when your wine runs out?">
+        </form>
+        <form action="/blog5" method="POST">
+            <input class="button-input" type="submit" value="Who is Jesus?">
+        </form>
+        <form action="/blog6" method="POST">
+            <input class="button-input" type="submit" value="Holding onto God's Promises">
+        </form>
+        <form action="/blog7" method="POST">
+            <input class="button-input" type="submit" value="The Serious Business of Heaven">
+        </form>
+        <form action="/blog8" method="POST">
+            <input class="button-input" type="submit" value="Jugging Worry">
+        </form>
+        <form action="/blog9" method="POST">
+            <input class="button-input" type="submit" value="Be All That You Can Be">
+        </form>
+        <form action="/blog10" method="POST">
+            <input class="button-input" type="submit" value="Robert Wachs’ Resignation">
+        </form>
+        <form action="/blog11" method="POST">
+            <input class="button-input" type="submit" value="“God, Just Tell Me What to Do Next!”">
+        </form>
+        <form action="/blog12" method="POST">
+            <input class="button-input" type="submit" value="Pregnancy Loss">
+        </form>
+        <!-- <form action="/blog13" method="POST">
+            <input class="button-input" type="submit" value="You Are Not Just Talented, You Are Spiritually Gifted">
+        </form>
+        <form action="/blog14" method="POST">
+            <input class="button-input" type="submit" value="A Lesson in Reading the “Commands” of Scripture">
+        </form>
+        <form action="/blog15" method="POST">
+            <input class="button-input" type="submit" value="Living with Purpose">
+        </form>
+        <form action="/blog16" method="POST">
+            <input class="button-input" type="submit" value="You Were Loved Into Existence">
+        </form>
+        <form action="/blog17" method="POST">
+            <input class="button-input" type="submit" value="Bible Verses to Ground Your Day in Gratitude">
+        </form>
+        <form action="/blog18" method="POST">
+            <input class="button-input" type="submit" value="Be Busy, Not Hurried">
+        </form>
+        <form action="/blog19" method="POST">
+            <input class="button-input" type="submit" value="5 Things You Can Do TODAY to Improve Your Communication!">
+        </form>
+        <form action="/blog20" method="POST">
+            <input class="button-input" type="submit" value="The Secret Ingredient of Endurance">
+        </form>
+        <form action="/blog21" method="POST">
+            <input class="button-input" type="submit" value="What If the Church Was a Family?">
+        </form>
+        <form action="/blog22" method="POST">
+            <input class="button-input" type="submit" value="What We Can Learn from the Liturgy of Seasons">
+        </form>
+        <form action="/blog23" method="POST">
+            <input class="button-input" type="submit" value="Redeeming Our Regrets">
+        </form>
+        <form action="/blog24" method="POST">
+            <input class="button-input" type="submit" value="Combatting Complacency So I Press On Toward All God Has For Me">
+        </form>
+        <form action="/blog25" method="POST">
+            <input class="button-input" type="submit" value="How to Pray a Blessing Over Your Kids">
+        </form>
+        <form action="/blog26" method="POST">
+            <input class="button-input" type="submit" value="3 Ways to Express Affirmation to Others (But Especially Your Kids!)">
+        </form>
+        <form action="/blog27" method="POST">
+            <input class="button-input" type="submit" value="Who Do We Trust: Almighty God or the Almighty Dollar?">
+        </form>
+        <form action="/blog28" method="POST">
+            <input class="button-input" type="submit" value="Uprooting the “Strongholds” in Our Mind">
+        </form>
+        <form action="/blog29" method="POST">
+            <input class="button-input" type="submit" value="What Gave the Israelites the Right to “Invade” Canaan?">
+        </form>
+        <form action="/blog30" method="POST">
+            <input class="button-input" type="submit" value="How God’s Joy is Better Than Instant Gratification">
+        </form>
+        <form action="/blog31" method="POST">
+            <input class="button-input" type="submit" value="Where Was Jesus Before the Gospels?">
+        </form>
+        <form action="/blog32" method="POST">
+            <input class="button-input" type="submit" value="Made For More Than Manna">
+        </form>
+        <form action="/blog33" method="POST">
+            <input class="button-input" type="submit" value="Where Does Courage Come From?">
+        </form>
+        <form action="/blog34" method="POST">
+            <input class="button-input" type="submit" value="The Gates of Hell or Hades? What’s the Difference?">
+        </form>
+        <form action="/blog35" method="POST">
+            <input class="button-input" type="submit" value="When We Look Like Our Heavenly Father">
+        </form>
+        <form action="/blog36" method="POST">
+            <input class="button-input" type="submit" value="Happy Are the Unhappy">
+        </form>
+        <form action="/blog37" method="POST">
+            <input class="button-input" type="submit" value="The Hidden Surprise in the Story of Mary and Martha">
+        </form>
+        <form action="/blog38" method="POST">
+            <input class="button-input" type="submit" value="5 Insights on Relationships from the Past Two Years">
+        </form>
+        <form action="/blog39" method="POST">
+            <input class="button-input" type="submit" value="Community > Individualism">
+        </form>
+        <form action="/blog40" method="POST">
+            <input class="button-input" type="submit" value="Reframing the Question We Ask Every Kid">
+        </form>
+        <form action="/blog41" method="POST">
+            <input class="button-input" type="submit" value="The Power of Prepositions">
+        </form>
+        <form action="/blog42" method="POST">
+            <input class="button-input" type="submit" value="The Scientific Benefits of Gratitude">
+        </form>
+        <form action="/blog43" method="POST">
+            <input class="button-input" type="submit" value="The Small Shift that Can Make a Big Difference for Your Kids">
+        </form> -->
+    </div>
+
+    <%- include("footer.ejs") %>
+<script href="index.js" charset="UTF-8"></script>    
+</body>
+</html>
